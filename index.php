@@ -21,6 +21,10 @@
 	}
 	print( $valor );
 	?>
+	
+	<?php
+	
+	?>
 </body>
 
 </html>
