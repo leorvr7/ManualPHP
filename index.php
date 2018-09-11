@@ -18,16 +18,20 @@
 		$valor = "Bienvenida, " . $nombre;
 	} else {
 		$valor = "Incognito";
-
+	}
+	print( $valor );
 	?>
 	
 	<?php
+	//Estructura Repititiva While
 	$cont=1;
-	while($cont<5){
-		
+	while($cont < 5 || $cont < 100){
+	print("<br> Numero " . $cont);
+		$cont++;
 	}
-	
 	?>
+	
+	
 </body>
 
 </html>
