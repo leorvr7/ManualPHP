@@ -18,11 +18,14 @@
 		$valor = "Bienvenida, " . $nombre;
 	} else {
 		$valor = "Incognito";
-	}
-	print( $valor );
+
 	?>
 	
 	<?php
+	$cont=1;
+	while($cont<5){
+		
+	}
 	
 	?>
 </body>
