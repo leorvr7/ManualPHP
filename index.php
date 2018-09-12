@@ -19,9 +19,26 @@
 	} else {
 		$valor = "Incognito";
 	}
-	print( $valor );
+	print( $valor . " <br>");
 	?>
-
+	
+	
+	<?php
+	//Estructura condicion Switch
+	$opcion=3;
+	switch($opcion){
+		case 1:
+			echo("Activa Opcion 1");
+			break;
+		case 2:
+			echo("Activa Opcion 2");
+			break;
+		default:
+			echo("Activa Opcion 3");
+			break;
+	}
+	?>
+	
 	<?php
 	//Estructura Repititiva While
 	$cont = 1;
@@ -37,22 +54,21 @@
 	do {
 		print( "<br> Numero " . $cont );
 		$cont++;
-	} while ($cont < 5 );
+	} while ( $cont < 5 );
 	?>
-	
+
 	<?php
 	//Estructura repetitiva for
-	$contador=1;
-	for($contador=1; $contador <5; $contador++){
-		
+	for ( $contador = 1; $contador < 5; $contador++ ) {
+		print( "<br> Numero " . $contador );
 	}
-	
 	?>
 	
 	
-	
-	
-	
+
+
+
+
 
 
 </body>
