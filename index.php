@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	
+
 	<?php
 	//Estructura Condicional if - else if - else
 	$nombre = "Leonardo";
@@ -21,17 +21,40 @@
 	}
 	print( $valor );
 	?>
-	
+
 	<?php
 	//Estructura Repititiva While
-	$cont=1;
-	while($cont < 5 || $cont < 100){
-	print("<br> Numero " . $cont);
+	$cont = 1;
+	while ( $cont < 5 ) {
+		print( "<br> Numero " . $cont );
 		$cont++;
 	}
 	?>
+
+	<?php
+	//Estructura Repititiva DO - WHILE
+	$cont = 1;
+	do {
+		print( "<br> Numero " . $cont );
+		$cont++;
+	} while ($cont < 5 );
+	?>
+	
+	<?php
+	//Estructura repetitiva for
+	$contador=1;
+	for($contador=1; $contador <5; $contador++){
+		
+	}
+	
+	?>
 	
 	
+	
+	
+	
+
+
 </body>
 
 </html>
