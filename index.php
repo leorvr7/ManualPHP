@@ -12,7 +12,7 @@
 
 <?php
 //Mostrar Mensaje
-echo "¡Hola, Soy un Script de PHP! <br>";
+echo "¡Hola, Soy un Script de PHP! <br>ddsd";
 print "Hola mi primera clase";
 print("<p>Esto es un parrafo</p>");
 print ("
