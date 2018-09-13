@@ -136,7 +136,7 @@ echo($ejemplo . "<br>");
 $lenguajes = array('HTML', 'CSS', 'JS');
 var_dump($lenguajes);
 print("<br>");
-$lenguajes = ['Python', 'Java', 'Go', 'C++'];
+$lenguajes = ['Python', 'Java', 'Go', 'C++', 'JavaScript'];
 var_dump($lenguajes);
 ?>
 
