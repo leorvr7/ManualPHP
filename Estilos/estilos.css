@@ -1,1 +1,7 @@
 /* CSS Document */
+.articulo-final{
+    background-color: hsl(50,75%,70%);
+    display: block;
+    height: 200px;
+    width: 150px;
+}
