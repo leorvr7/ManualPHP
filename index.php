@@ -132,7 +132,7 @@ echo($ejemplo . "<br>");
 ?>
 
 <?php
-//Crear Arrays
+//Crear Arrays 
 $lenguajes = array('HTML', 'CSS', 'JS');
 var_dump($lenguajes);
 print("<br>");
