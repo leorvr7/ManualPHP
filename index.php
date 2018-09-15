@@ -50,6 +50,71 @@
 	?>
 
 	<?php
+	//Crear Arrays
+	$lenguajes = array( 'HTML', 'CSS', 'JS' );
+	var_dump( $lenguajes );
+	print( "<br>" );
+	$lenguajes = [ 'Python', 'Java', 'Go', 'C++', 'JavaScript' ];
+	var_dump( $lenguajes );
+	print( "<br>" );
+	
+	?>
+
+	<?php
+	//Arrays Multidimensionales
+	$cosas = [
+		'animales' => [ 'gato', 'perro', 'pez' ],
+		'colores' => [ 'azul', 'Amarillo', 'cafe' ],
+		'ropa' => [ 'camisa', 'pantalon' ],
+	];
+	var_dump( $cosas );
+	$animales = $cosas[ 'animales' ];
+	var_dump( $animales );
+	?>
+
+	<?php
+	//Casteo de Variables
+	$polos = 4;
+	var_dump( $polos );
+	$polos = ( int )$polos;
+	var_dump( $polos );
+	print( "<br>" );
+	?>
+
+	<?php
+	/** Operadores lógicos
+	 * Devuelve true
+	 * and --> Si todos son true
+	 * &&  --> Si todos son true
+	 * or  --> Si alguno es true
+	 * ||  --> Si alguno es true
+	 * !   --> Invierte el valor
+	 * xor --> No todo es verdad
+	 */
+	?>
+
+	<?php
+	//Operador Nave Espacial
+	$vale = 1 <=> 3;
+	$vale = 3 <=> 3;
+	//$vale = 3 <=> 1;
+	echo( $vale );
+	print( "<br>" );
+	?>
+
+	<?php
+	//Operador Ternario
+	$num = 10;
+	$nomnum = ( $num == 10 ) ? 'Diez' : 'Otro numero';
+	var_dump( $nomnum );
+	?>
+
+	<?php
+	//Operados Fusion de Null
+	$val = $num ?? 'Valor Nulo';
+	?>
+	
+	<?php
 	//Estructura Condicional if - else if - else
 	$nombre = "Leonardo";
 	$sexo = "S";
@@ -103,6 +168,13 @@
 		print( "<br> Numero " . $contador );
 	}
 	?>
+	
+	<?php
+	$numeros = ['uno', 'dos', 'tres', 'cuatro', 'cinco'];
+	foreach($numeros as $cuenta){
+		echo("Numero : {$cuenta} \n")
+	}
+	?>
 
 	<?php
 	//Funcion por Referencia
@@ -122,35 +194,12 @@
 	function incrementar( & $i ) {
 		$i = $i + 1;
 	}
-
 	incrementar( $ejemplo );
 	echo( $ejemplo . "<br>" );
-
 	?>
 
-	<?php
-	//Crear Arrays
-	$lenguajes = array( 'HTML', 'CSS', 'JS' );
-	var_dump( $lenguajes );
-	print( "<br>" );
-	$lenguajes = [ 'Python', 'Java', 'Go', 'C++', 'JavaScript' ];
-	var_dump( $lenguajes );
-	print("<br>");
-	?>
 
-	<?php
-	//Arrays Multidimensionales
-	$cosas = [
-		'animales' => [ 'gato', 'perro', 'pez' ],
-		'colores' => [ 'azul', 'Amarillo', 'cafe' ],
-		'ropa' => [ 'camisa', 'pantalon' ],
-	];
-	var_dump( $cosas );
-	$animales = $cosas['animales'];
-	var_dump($animales);
-	?>
-	
-	
+
 </body>
 
 </html>
