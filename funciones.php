@@ -1,10 +1,6 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Documento sin título</title>
-</head>
-
-<body>
-</body>
-</html>
+<?php
+//Include
+function Sumas( int $a, int $b ): int {
+	return $a + $b;
+}
+?>

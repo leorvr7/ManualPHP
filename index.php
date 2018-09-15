@@ -216,6 +216,10 @@
 	echo( $ejemplo . "<br>" );
 	?>
 
+	<?php
+	include('funciones.php');
+	print Sumas(5,6);
+	?>
 
 
 </body>
