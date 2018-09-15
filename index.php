@@ -170,12 +170,29 @@
 	?>
 	
 	<?php
+	//foreach
 	$numeros = ['uno', 'dos', 'tres', 'cuatro', 'cinco'];
-	foreach($numeros as $cuenta){
-		echo("Numero : {$cuenta} \n")
+	foreach($numeros as $cuenta):
+		echo("Numero : {$cuenta}");
+	print( "<br>" );
+	endforeach;
+	?>
+	
+	<?php
+	//Break y Continue
+	$cuenta =0;
+	while($cuenta<10){
+		$cuenta++;
+		if($cuenta==8){
+			break;
+		}
+		if($cuenta % 2 == 0){
+			continue;
+		}
+		print("Un numero impar{$cuenta} \n");
 	}
 	?>
-
+	
 	<?php
 	//Funcion por Referencia
 	function Suma( $a, $b ) {
@@ -184,6 +201,7 @@
 	}
 
 	$resultado = Suma( 5, 12 );
+	print( "<br>" );
 	print( $resultado );
 	?>
 
